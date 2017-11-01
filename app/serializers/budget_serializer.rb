@@ -1,3 +1,3 @@
 class BudgetSerializer < ActiveModel::Serializer
-  attributes :id, :name, :goal
+  attributes :name, :goal
 end
