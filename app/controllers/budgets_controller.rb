@@ -47,7 +47,7 @@ class BudgetsController < ProtectedController
 
     # Only allow a trusted parameter "white list" through.
   def budget_params
-    params.require(:budget).permit(:id, :name, :goal)
+    params.require(:budget).permit(:id, :name, :goal, :actual)
   end
 
   private :set_budget, :budget_params

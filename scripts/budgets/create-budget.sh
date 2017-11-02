@@ -10,7 +10,8 @@ curl "${API}${URL_PATH}" \
   --data '{
     "budget": {
       "name": "'"${NAME}"'",
-      "goal": "'"${GOAL}"'"
+      "goal": "'"${GOAL}"'",
+      "actual": "'"${ACTUAL}"'"
     }
   }'
 
