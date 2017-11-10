@@ -3,6 +3,7 @@ class CreateBudgets < ActiveRecord::Migration[5.1]
     create_table :budgets do |t|
       t.string :name
       t.integer :goal
+      t.integer :actual
 
       t.timestamps
     end
